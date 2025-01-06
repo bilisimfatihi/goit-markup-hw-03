@@ -269,10 +269,10 @@ address .address-list .address-link:focus {
     color: white;
     cursor: pointer;
     display: block;
-        min-width: 169px;
-        height: 56px;
-        border: none;
-        border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .section-hero-image-btn:hover{
     background-color: #404BBF;
@@ -288,6 +288,19 @@ address .address-list .address-link:focus {
 .section-second {
     background-color: #FFFFFF;
     padding: 120px 0
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .section-second .container .section-second-list {
